@@ -43,7 +43,7 @@ describe('Cart Page', () => {
     const [firstProductAmount, secondProductAmount] = getAllByTestId(
       'product-amount'
     );
-
+    
     expect(firstProductAmount).toHaveDisplayValue('1');
     expect(secondProductAmount).toHaveDisplayValue('2');
 
